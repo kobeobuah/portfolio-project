@@ -1,0 +1,458 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@100;300;400;500;700&family=Poppins:wght@300;400;500;600;700;800&family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Epilogue', sans-serif;
+    display: grid;
+    place-items: center;
+}
+
+
+.container {
+    width: 375px;
+    margin: 16px;    
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 343px; */
+    margin: 24px 16px 56px 16px;
+}
+
+button {
+    font-family: 'Epilogue';
+    padding: 16px;
+    border: 1px solid #172339;
+    border-radius: 0.5rem;
+    color: #172339;
+    background: white;
+}
+
+.header-button:hover {
+    background: #172339;
+    color: #FAF8F6;
+}
+
+.desktop-hero-img {
+    display: none;
+}
+
+.tablet-hero-img {
+    display: none;
+}
+
+.hero-mobile-container {
+    width: 343.5px;
+    height: 325.32px;
+    margin-left: 16px;
+    /* margin: 0 16px 16px 56px; */
+}
+
+.curve {
+    position: relative;
+    width: 151.47px;
+    height: 16.89px;
+    left: 150px;
+    top: 10.11px;
+}
+
+.hero-heading h2 {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 44px;
+    letter-spacing: -0.527778px;
+    color: #172339;
+}
+
+.hero-heading span {
+    font-weight: bold;
+}
+
+.hero-text {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.0888889px;
+    color: #49566D;
+    margin: 32px 0;
+}
+
+.hero-button {
+    background: #172339;
+    color: #FAF8F6;
+}
+
+.hero-button:hover{
+    background-image: linear-gradient(to bottom right, #A060FF, #CB30E3, #FFA84E);
+}
+
+.mobile-hero-img {
+    width: 343px;
+    height: 240px;
+    margin-left: 16px;
+    margin-top: 52px;
+}
+
+.stats {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 344px;
+    height: 313px;
+    text-align: center;
+    margin-left: 16px;
+    margin-top: 56px;
+}
+
+.stats h3 {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #172339;
+}
+
+.stats span {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 2.5px;
+    color: #49566D;
+}
+
+.stat-language {
+    margin: 32px 0;
+}
+
+.testimonial {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #172339;
+    border-radius: 15px;
+    height: 900px;
+}
+
+.jeremy-desktop-img {
+    display: none;
+}
+
+.blur {
+    display: none;
+}
+
+.white-space {
+    margin-top: 56px;
+    height: 200px;
+}
+
+.jeremy-img {
+    position: relative;
+    width: 343px;
+    height: 402px;
+    left: 0px;
+    top: -215px;
+}
+
+.small-curve {
+    position: absolute;
+    left: 40.32%;
+    right: 37.08%;
+    top: 37.58%;
+    bottom: 48.12%;
+}
+
+.testimonial-text h2{
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: -0.416667px;
+    color: #FAF8F6;
+}
+
+.testimonial-text h2 span {
+    font-weight: bold;
+}
+
+.testimonial-text p {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.09px;
+    color: #F3EDE7;
+    margin: 40px 0;
+}
+
+.jeremy-title h4 {
+    text-transform: uppercase;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -0.18px;
+    color: #FAF8F6;
+}
+
+.jeremy-title span {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 2.5px;
+    color: #F3EDE7;
+}
+
+footer{
+    border: 1px solid #F3EDE7;
+    background: #F3EDE7;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 56px 127.5px 80px 124.5px;
+    background: #F3EDE7;
+}
+
+.footer-section h6 {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.0833333px;
+    color: #49566D;
+}
+
+.social-links-middle{
+    padding: 0 20px;
+}
+
+.social-links img:hover {
+    opacity: 50%;
+}
+
+
+
+@media screen and (min-width: 768px){ 
+/* @media all and (min-width: 768px) and (max-width: 1023px) { */
+
+ .container {
+    min-width: 768px;
+    margin-bottom: 0;
+    }
+
+.hero-tablet-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mobile-hero-img {
+    display: none;
+}
+
+.hero-heading {
+    position: absolute;
+    width: 573px;
+    height: 354px;
+}
+
+.curve {
+    width: 231.19px;
+    height: 25.78px;
+    left: 262px;
+    top: 1.9px;
+}
+
+
+.tablet-hero-img {
+    display: inline-flex;
+    width: 281px;
+    height: 482px;
+    left: 447px;
+    top: 176px;
+    z-index: -1;
+}
+
+.hero-heading h2 {
+    
+    font-size: 60px;
+    line-height: 64px;
+    letter-spacing: -0.777778px;
+}
+
+.hero-text {
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.0888889px;
+}
+
+.stats {
+    justify-content: space-between;
+    flex-direction: row;
+    width: 689px;
+}
+
+.small-curve {
+    left: 45%
+}
+
+
+.testimonial-text p {
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.09px;
+}
+
+.footer {
+    margin-top: 50px;
+}
+
+.footer-section {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 689px;
+    height: 32px;
+    margin: 0 auto;
+    
+}
+
+.background {
+   position: relative;
+    width: 850px;
+    height: 640px;
+    left: 0px;
+    top: -460px;
+    background: #F3EDE7;
+    z-index: -1;
+}
+
+}
+
+
+@media screen and (min-width: 1024px){ 
+
+.container {
+    min-width: 1024px;
+    margin-bottom: 0;
+    }
+
+.hero-desktop-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 199px;
+    margin-top: 67px;
+}
+
+.hero-heading {
+    width: 635px;
+    height: 405px;
+}
+
+.hero-text {
+    margin: 40px 0 52px 0;
+}
+
+.stats {
+    flex-direction: column;
+}
+
+.stat-language {
+    margin: 63px 0;
+}
+
+.tablet-hero-img {
+    width: 350px;
+    height: 550px;
+}
+
+.testimonial {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    height: 545px;
+}
+
+.jeremy-tablet-img {
+    display: none;
+}
+
+.jeremy-desktop-img {
+    display: inline-block;
+}
+
+.jeremy-img {
+    width: 359.81px;
+    height: 589.56px;
+    left: 58px;
+    top: -23px;
+}
+
+.testimonial-text {
+    position: relative;
+    width: 350px;
+    height: 369px;
+    left: -60px;
+    top: -3px;
+}
+
+.testimonial-text h2, .testimonial-text p, 
+.jeremy-title, .jeremy-title h4 {
+    text-align: justify;
+}
+
+.footer-section {
+    width: 1000px;
+    height: 32px;
+    margin-bottom: 72px;
+    margin-right: 30px;
+}
+
+.background {
+    width: 1440px;
+    height: 464px;
+    overflow: hidden;
+    }
+
+
+}
